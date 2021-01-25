@@ -1,0 +1,32 @@
+{
+  "name": "amf-packet",
+  "version": "1.0.0",
+  "description": "AMF0 packet serializer and deserializer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -v && eslint ."
+  },
+  "author": "David Csirmaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:csimi/amf-packet.git"
+  },
+  "dependencies": {
+    "amf-codec": "^1.1.0"
+  },
+  "devDependencies": {
+    "@csimi/eslint-config": "^3.0.0",
+    "eslint": "^7.18.0"
+  },
+  "files": [
+    "lib/**"
+  ],
+  "keywords": [
+    "amf",
+    "amf0",
+    "packet",
+    "rpc"
+  ]
+}
