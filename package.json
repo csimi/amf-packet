@@ -1,6 +1,6 @@
 {
   "name": "amf-packet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AMF0 packet serializer and deserializer",
   "main": "lib/index.js",
   "scripts": {

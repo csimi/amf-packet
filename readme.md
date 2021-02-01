@@ -1,4 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/amf-packet.svg?logo=npm)](https://www.npmjs.com/package/amf-packet)
+[![build status](https://github.com/csimi/amf-packet/workflows/build/badge.svg)](https://github.com/csimi/amf-packet/actions)
+[![codecov](https://codecov.io/gh/csimi/amf-packet/branch/master/graph/badge.svg)](https://codecov.io/gh/csimi/amf-packet)
 
 # About
 
