@@ -4,7 +4,10 @@
   "description": "AMF0 packet serializer and deserializer",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run lint",
+    "test": "cross-env NODE_ENV=test nyc mocha",
+    "posttest": "npm run coverage",
+    "coverage": "nyc report --reporter=lcov",
     "lint": "eslint -v && eslint ."
   },
   "author": "David Csirmaz",
@@ -18,7 +21,12 @@
   },
   "devDependencies": {
     "@csimi/eslint-config": "^3.0.0",
-    "eslint": "^7.18.0"
+    "chai": "^4.2.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.18.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "source-map-support": "^0.5.19"
   },
   "files": [
     "lib/**"
